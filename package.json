@@ -1,0 +1,31 @@
+{
+  "name": "demoqa_project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "react": "^16.3.2",
+    "react-dom": "^16.3.2",
+    "react-scripts": "1.1.4"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit '",
+    "e2e": "cypress run",
+    "cy:open": "cypress open",
+    "cy:open:nowatcher": "cypress open --config watchForFileChanges=false",
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test-1": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "devDependencies": {
+    "@4tw/cypress-drag-drop": "^2.2.5",
+    "cypress": "^13.14.2",
+    "cypress-file-upload": "^5.0.8",
+    "cypress-mochawesome-reporter": "^3.8.2",
+    "cypress-recurse": "^1.35.3",
+    "cypress-wait-until": "^3.0.2",
+    "cypress-xpath": "^2.0.1",
+    "mocha": "10.6.0"
+  }
+}
